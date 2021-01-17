@@ -34,6 +34,15 @@ namespace StringPrac
             {
                 Console.WriteLine("Invalid");
             }
+            //# to strings:
+
+            var str = "30";
+            var age = Convert.ToByte(str);
+            Console.WriteLine(age);
+
+            float price = 29.95f;
+            Console.WriteLine(price.ToString("C"));//decimal points
+            Console.WriteLine(price.ToString("C0")); //rounds to 30$
 
 
         }
